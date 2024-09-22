@@ -1,0 +1,1 @@
+for /l %%n in (1, 1, 100) do echo INFO SOFT®-Informática sem complicação!!! >> surpresa%%n.txt

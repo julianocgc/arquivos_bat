@@ -1,0 +1,60 @@
+Lista de comandos 
+
+
+Todos estes comandos são executados no Prompt de Comando (DOS).
+
+
+title nome - define um nome no título da página.
+
+echo - Exibe uma string na tela.
+Ex.: echo teste (escreve teste na tela)
+
+echo. - cria uma linha em branco.
+
+@echo off - Desativa a exibição dos comandos na tela. Deve ser adicionado à primeira linha de um arquivo de lote MS-DOS (*.BAT).
+
+cls - Limpa a tela.
+
+set string = valor; - define uma variável.
+Ex.: set a = 10; (define variável a com valor igual a 10)
+
+%string% - chama variável.
+Ex.: set a = teste;
+
+echo %a% (primeiro define a com valor igual a teste, segunda linha escreve na tela o conteúda da variável a, no caso a palavra teste)
+
+pause - pausa as execuções, para prosseguir é necessário pressionar alguma tecla.
+
+md nome - cria um diretório chamado nome.
+
+rd nome - remove o diretório vazio nome.
+
+cd nome - direciona prompt para o diretório nome.
+
+copy diretórioorigem diretóriodestino - copia um arquivo ou pasta de um diretório origem para um diretório destino.
+Ex.: copy C:windowsrundll32.exe C:Pasta
+
+del nome - deleta arquivo nome.
+
+deltree diretório - deleta diretório não-vazio e todo seu conteúdo. Este comando pede confirmação (Y/N), para confirmar direto, usa-se deltree/y.
+
+renam nomeantigo.extensão nomenovo.extensão - renomeia arquivos ou pastas.
+Ex.: renam C:windowsmistic.exe C:windowsbarret.exe
+
+dir - define conteúdo do diretório.
+
+:nome - cria um parágrafo de orientação chamado nome.
+
+goto nome - direciona a "leitura" para o parágrafo nome.
+
+call arquivo - chama um arquivo de lote do MS-DOS.
+
+start arquivo - inicia uma aplicação do Windows.
+
+date - exibe/altera data.
+
+time - exibe/altera hora.
+
+attrib - delega ou remove atributos.
+
+exit - fecha o prompt do MS-DOS.
